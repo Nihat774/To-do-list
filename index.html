@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css"
+        integrity="sha512-aupidr80M36SeyviA/hZ2uEPnvt2dTJfyjm9y6z1MgaV13TgzmDiFdsH3cvSNG27mRIj7gJ2gNeg1HeySJyE3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: fit-content;
+            background-color: #863ab4;
+            border-radius: 10px;
+            width: 650px;
+            height: fit-content;
+            border: 1px solid ;
+        }
+
+        .taskWord {
+            height: 7vh;
+            background-color: white;
+            color: black;
+            border: 1px solid;
+            font-size: 1.7rem;
+            display: flex;
+            flex-direction: column;
+            place-content: center;
+            text-align: center;
+        }
+
+        #text {
+            display: flex;
+        }
+
+        .text-btn {
+            display: flex;
+            justify-content: space-around;
+
+            margin-top: 20px;
+        }
+
+        .textInput {
+            background-color: rgb(226, 220, 220);
+            border-radius: 10px;
+            border: 1px solid;
+            font-size: 1.5rem;
+            width: 430px;
+            padding-left: 15px;
+        }
+
+        .trash-self {
+            padding: 5px;
+        }
+
+        body {
+            background-color: aqua;
+
+        }
+
+        .btn {
+            width: 120px;
+            border-radius: 10px;
+            background-color: aqua;
+            font-size: 1.5rem;
+            place-self: center;
+            padding: 11px;
+            cursor: pointer;
+        }
+
+        .newList {
+            font-size: 1.5rem;
+            border-radius: 5px;
+            border: 1px solid black;
+            /* color: white; */
+            background-color: aqua;
+            margin: 0px 20px 20px 20px;
+            padding: 25px;
+        }
+
+        .bigDiv {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid;
+        }
+
+        .newTask {
+            padding: 10px;
+        }
+
+        .iconDiv {
+            /* place-self: end; */
+            place-self: center;
+            padding: 5px;
+            font-size: 1rem;
+            width: fit-content;
+            height: fit-content;
+            margin-right: 5px;
+            border: 1px solid;
+            cursor: pointer;
+            border-radius: 3px;
+            background-color: aqua;
+            color: black;
+            border-color: black;
+        }
+
+        .notSlash {
+            background-color: aqua;
+            padding: 6px 7px;
+        }
+
+        .slashAndTrash {
+            place-self: center;
+        }
+
+        #bodyBox {
+            display: flex;
+
+            justify-content: center;
+            place-content: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+        <div id="box"></div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
